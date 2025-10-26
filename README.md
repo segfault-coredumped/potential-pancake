@@ -12,13 +12,6 @@ This project is a simple web application that allows users to translate text mes
 - Web browser (Chrome, Firefox, Edge, etc.)
 - No server required; works entirely in the browser.
 
-## File Structure
-encrypt-it/
-├── index.html       # Main HTML file
-├── encrypt-it.js    # JavaScript for encryption logic
-├── style.css        # CSS stylesheet for styling and animations
-└── README.md        # Project documentation
-
 ## How to Run
 1. Open `index.html` in your web browser.
 2. Enter the text you want to encrypt in the textarea.
@@ -27,6 +20,7 @@ encrypt-it/
 5. Click **Reset** to clear the input.
 
 ## Example HTML (`index.html`)
+```HTML
 <!DOCTYPE html>
 <html>
   <head>
@@ -62,6 +56,7 @@ encrypt-it/
     </main>
   </body>
 </html>
+```
 
 ## Notes
 - JavaScript handles encryption logic in `encrypt-it.js`.
